@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/e6962ca71c.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e6962ca71c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Long+Cang&family=Poppins:ital,wght@0,300;0,500;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body class="">
+
+    <header>
+        <section class="container0">
+            <div id='stars'></div>
+            <div id='stars2'></div>
+            <div id='stars3'></div>
+            <div class="parentdiv1">
+                <div class="address">
+
+                    <a href="mailto: info@example.com"><i class="fa-solid fa-envelope"></i> info@example.com</a>
+                    <a href="tel:123 456-7890"><i class="fa-solid fa-phone-volume"></i> 123 456-7890</a>
+                </div>
+
+                <div class="logo">
+                    <a href="..//index.html"><img class="logoimg" src="images/logo.png"></a>
+
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="container0">
+            <div class="mainheader">
+                <nav>
+                    <ul class="nav-bar">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about us/about us.html">About</a>
+                        </li>
+                        <li><a href="../Gallery/gallery.html">Gallery</a></li>
+                        <li><a href="../contact/contact.html">Contact</a></li>
+                        <li><a href="./index.html">Shopping</a>
+                            <ul>
+                                <li><a onclick="scrollToSection('section3')">Clothes</a></li>
+                                <li><a onclick="scrollToSection('section2')">Footware</a></li>
+                                <li><a onclick="scrollToSection('section1')">Watches </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </nav>
+                <div class="funicon">
+                    <div class="icon-cart">
+                        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                        </svg>
+                        <span style="font-size: 10px;"> 0</span>
+
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </header>
+    <br><br><br>
+    <main>
+        <br><br><br>
+        <div class="container">
+            <section id="section1" class="scroll-reveal">
+
+                <br><br><br>
+                <h2 class="title">Watches</h2>
+                <div class="ListProduct">
+
+                    <div class="item scroll-reveal">
+                        <img src="images/924aa6a39d6f28f063e16d38386223a7-removebg-preview.png" alt="">
+                        <p> Bangle Watch</p>
+                        <div class="price">$2.2</div>
+
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/924aa6a39d6f28f063e16d38386223a7-removebg-preview.png', name: 'Bracelete watch', price: '$2.2', quantity: 1 })">
+                            <svg class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/2e1a51f09dc76fb47e2f42950ec51240-removebg-preview.png" alt="">
+                        <p> printed pink watch</p>
+                        <div class="price">$1.9</div>
+
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/2e1a51f09dc76fb47e2f42950ec51240-removebg-preview.png', name: 'Classy watch', price: '$1.9', quantity: 1 })">
+                            <svg class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/1b72955f3f21f6932fb4a8bd5db54701-removebg-preview.png" alt="">
+                        <p> Classy black Watch for Men </p>
+                        <div class="price">$2.7</div>
+
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/1b72955f3f21f6932fb4a8bd5db54701-removebg-preview.png', name: 'Black watch', price: '$2.7', quantity: 1 })">
+                            <svg class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/8111f01ed99bfc482da4d6b7362a2bc6-removebg-preview.png" alt="">
+                        <p> HK lather Watch for Men</p>
+                        <div class="price">$2.3</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/8111f01ed99bfc482da4d6b7362a2bc6-removebg-preview.png', name: 'Pearly Watch', price: '$2.3', quantity: 1 })">
+                            <svg class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg> Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/4bcdeffec2ddd153a814ca1197226c65-removebg-preview.png" alt="">
+                        <p> Pink Simple Watch </p>
+                        <div class="price">$2.0</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/4bcdeffec2ddd153a814ca1197226c65-removebg-preview.png', name: 'Gradient watch', price: '$2.0', quantity: 1 })">
+                            <svg class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/87-removebg-preview.png" alt="">
+                        <p> Pocket chain watch</p>
+                        <div class="price">$2.0</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/87-removebg-preview.png', name: 'Pocket chain watch', price: '$2.0', quantity: 1 })">
+                            <svg class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+
+                    <div class="item scroll-reveal">
+
+                        <img src="images/7-removebg-preview.png" alt="">
+                        <p> Pocket Chain Watch for girls</p>
+                        <div class="price">$2.0</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/7-removebg-preview.png', name: 'White Watch', price: '$2.0', quantity: 1 })">
+                            <svg class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/0dfc4aa72cfd155f3fc051fb25a5bb05-removebg-preview.png" alt="">
+                        <p> Black Rubber Watch</p>
+                        <div class="price">$2.0</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/0dfc4aa72cfd155f3fc051fb25a5bb05-removebg-preview.png', name: 'Pinkish Watch', price: '$2.0', quantity: 1 })">
+                            <svg class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/4ed43922cd03453a6725cba11cce1cf7-removebg-preview.png" alt="">
+                        <p>Smart Watch</p>
+                        <div class="price">$20.0</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/4ed43922cd03453a6725cba11cce1cf7-removebg-preview.png', name: 'Black Classy', price: '$2.0', quantity: 1 })">
+                            <svg class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/br-removebg-preview.png" alt="">
+                        <p> Brown Lather Watch for Men</p>
+                        <div class="price">$2.0</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/br-removebg-preview.png', name: 'Brown Watch', price: '$2.0', quantity: 1 })">
+                            <svg class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/11-removebg-preview.png" alt="">
+                        <p> Smart Watch With Chain</p>
+                        <div class="price">$2.0</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/11-removebg-preview.png', name: 'Smart watch', price: '$2.0', quantity: 1 })">
+                            <svg class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/0555c0bbf81646e102805c79758244e0-removebg-preview.png" alt="">
+                        <p> Simple Watches </p>
+                        <div class="price">$2.0</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/0555c0bbf81646e102805c79758244e0-removebg-preview.png', name: 'Ligt Brown Watch', price: '$2.0', quantity: 1 })">
+                            <svg class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section id="section2" class="scroll-reveal">
+                <br><br><br>
+                <h2 class="title"> Foot Wear</h2>
+
+
+
+                <div class="ListProduct">
+
+                    <div class="item scroll-reveal">
+                        <img src="images/83cc49d8b9ab8407a31a55a237820927-removebg-preview.png" alt="">
+                        <p> Pink Funky Shoes</p>
+                        <div class="price">$2.0</div>
+
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/83cc49d8b9ab8407a31a55a237820927-removebg-preview.png', name: 'White long shoes', price: '$2.0', quantity: 1 })"><svg
+                                class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/f10cc357b264e3559ad638bdc7a068b5-removebg-preview.png" alt="">
+                        <p> White Heels</p>
+                        <div class="price">$2.0</div>
+
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/f10cc357b264e3559ad638bdc7a068b5-removebg-preview.png', name: 'Pink Heels', price: '$2.0', quantity: 1 })"><svg
+                                class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/f4782be6403245aa7b48cd8919d7ea0a-removebg-preview.png" alt="">
+                        <p> Pink Sneakers</p>
+                        <div class="price">$2.7</div>
+
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/f4782be6403245aa7b48cd8919d7ea0a-removebg-preview.png', name: 'Pink Sneakers', price: '$2.7', quantity: 1 })">
+                            <svg class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/35c503bae9f11690404bae3f308ff8d0-removebg-preview.png" alt="">
+                        <p> Black Boots</p>
+                        <div class="price">$3.0</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/35c503bae9f11690404bae3f308ff8d0-removebg-preview.png', name: 'Black Boots', price: '$3.0', quantity: 1 })"><svg
+                                class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/2c0ce50125ee5075006bcde65c71f409-removebg-preview.png" alt="">
+                        <p> Blackish Heels </p>
+                        <div class="price">$2.0</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/2c0ce50125ee5075006bcde65c71f409-removebg-preview.png', name: 'ribboned heels', price: '$2.0', quantity: 1 })">Add
+                            to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/8db3c75de11379a0f3a21c46bcb75fa4-removebg-preview.png" alt="">
+                        <p> Simple White Sneakers</p>
+                        <div class="price">$1.6</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/8db3c75de11379a0f3a21c46bcb75fa4-removebg-preview.png', name: 'Chain Sandels', price: '$1.6', quantity: 1 })"><svg
+                                class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+
+                    <div class="item scroll-reveal">
+                        <img src="images/20-removebg-preview.png" alt="">
+                        <p> Brown Sandels</p>
+                        <div class="price">$1.5</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/20-removebg-preview.png', name: 'Sandels', price: '$1.5', quantity: 1 })"><svg
+                                class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/e68282d538e2c9b6d0d469dd43a6ff3e-removebg-preview.png" alt="">
+                        <p> Side Chained Sneakers</p>
+                        <div class="price">$2.2</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/e68282d538e2c9b6d0d469dd43a6ff3e-removebg-preview.png', name: 'Blue Sneakers', price: '$2.2', quantity: 1 })">
+                            <svg class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/22-removebg-preview.png" alt="">
+                        <p> Flowery Heels</p>
+                        <div class="price">$2.0</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/22-removebg-preview.png', name: 'Flower heels', price: '$2.0', quantity: 1 })"><svg
+                                class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/79989bbb2b2ac24ac1b406613264067d-removebg-preview.png" alt="">
+                        <p> Purple Sneakers</p>
+                        <div class="price">$2.7</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/79989bbb2b2ac24ac1b406613264067d-removebg-preview.png', name: 'White Sneakers', price: '$2.7', quantity: 1 })"><svg
+                                class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/69b8e84d42a98ebf148a2a9c0161294b-removebg-preview.png" alt="">
+                        <p> Brown Sneakers</p>
+                        <div class="price">$2.0</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/69b8e84d42a98ebf148a2a9c0161294b-removebg-preview.png', name: 'Brown Sneakers', price: '$2.0', quantity: 1 })"><svg
+                                class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/25-removebg-preview.png" alt="">
+                        <p> White Ribboned Sandel</p>
+                        <div class="price">$2.0</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/25-removebg-preview.png', name: 'White Sandels', price: '$2.0', quantity: 1 })"><svg
+                                class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            <section id="section3" class="scroll-reveal">
+                <br><br><br>
+                <h2 class="title"> Clothes</h2>
+
+                <div class="ListProduct">
+
+                    <div class="item scroll-reveal">
+                        <img src="images/88-removebg-preview.png" alt="">
+                        <p> blue Top</p>
+                        <div class="price">$1.5</div>
+
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/88-removebg-preview.png', name: 'Black & White shirt', price: '$1.5', quantity: 1 })">
+                            <svg class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/91-removebg-preview.png" alt="">
+                        <p> Pink Stylish Top</p>
+                        <div class="price">$2.2</div>
+
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/91-removebg-preview.png', name: 'Pink Stylish Top', price: '$2.0', quantity: 1 })">
+                            <svg class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/img3-removebg-preview.png" alt="">
+                        <p>Cloud Printed Sweater top</p>
+                        <div class="price">$2.0</div>
+
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/img3-removebg-preview.png', name: 'Clound printed sweater', price: '$2.0', quantity: 1 })"><svg
+                                class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/img4-removebg-preview.png" alt="">
+                        <p>Heart Printed Sweater top</p>
+                        <div class="price">$2.0</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/img4-removebg-preview.png', name: 'Heart printed sweater', price: '$2.0', quantity: 1 })"><svg
+                                class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/img6-removebg-preview.png" alt="">
+                        <p> Simple Shirt</p>
+                        <div class="price">$3.0</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/img6-removebg-preview.png', name: 'Classy Men Wear', price: '$3.0', quantity: 1 })"><svg
+                                class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/93-removebg-preview.png" alt="">
+                        <p>Hand embroid Shirt</p>
+                        <div class="price">$1.5</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/93-removebg-preview.png', name: 'Sweat Sweater', price: '$1.5', quantity: 1 })"><svg
+                                class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+
+                    <div class="item scroll-reveal">
+                        <img src="images/92-removebg-preview.png" alt="">
+                        <p>White Fluffy Sweater</p>
+                        <div class="price">$2.0</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/92-removebg-preview.png', name: 'Shirt With Upper', price: '$2.0', quantity: 1 })"><svg
+                                class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/97-removebg-preview.png" alt="">
+                        <p>kitten Printed Hoodie</p>
+                        <div class="price">$1.9</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/97-removebg-preview.png', name: 'Brown Frock', price: '$1.9', quantity: 1 })"><svg
+                                class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/95-removebg-preview.png" alt="">
+                        <p>Flower Printed Sweater top</p>
+                        <div class="price">$1.8</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/95-removebg-preview.png', name: 'Brown Sweater', price: '$1.8', quantity: 1 })"><svg
+                                class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/94-removebg-preview.png" alt="">
+                        <p>High Neck Shirt</p>
+                        <div class="price">$2.2</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/94-removebg-preview.png', name: 'Green Shirt', price: '$2.2', quantity: 1 })"><svg
+                                class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/89-removebg-preview.png" alt="">
+                        <p>Black Top Cotton </p>
+                        <div class="price">$1.0</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/89-removebg-preview.png', name: 'Gradient Shirt', price: '$1.0', quantity: 1 })"><svg
+                                class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                    <div class="item scroll-reveal">
+                        <img src="images/100-removebg-preview.png" alt="">
+                        <p>Double Sided Shirt</p>
+                        <div class="price">$1.0</div>
+                        <button class="AddCart"
+                            onclick="addtoCart({ image: 'images/100-removebg-preview.png', name: 'Blue Shirt', price: '$1.0', quantity: 1 })"><svg
+                                class="emoji" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 18 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1" />
+                            </svg>Add to Cart</button>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+            <div class="cartTab">
+                <h1>Shopping Cart</h1>
+                <div class="ListCart">
+                    <div class="item">
+                    </div>
+                </div>
+
+                <div class="btn">
+                    <button class="close">Close</button>
+                    <button class="checkOut" onclick="redirectToPage('form/form.html')">Place Order</button>
+  
+                </div>
+            </div>
+            <br><br><br class="scroll-reveal">
+    </main>
+
+    <footer class="container0">
+        <div class="parent-footer ">
+            <div class="imgdiv">
+                <img src="images/baaag-removebg-preview.png">
+            </div>
+            <div class="ftlogo">
+                <a href="../index.html"><img src="images/logo.png"></a>
+                <nav>
+                    <ul class="nav-line">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about us/about us.html">About</a>
+                        </li>
+                        <li><a href="../Gallery/gallery.html">Gallery</a></li>
+                        <li><a href="../contact/contact.html">Contact</a></li>
+                        <li><a href="./index.html">Shopping</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+            <div class="contact-footer">
+                <h2>
+                    Information </h2>
+                <a href="mailto: info@example.com"><i class="fa-solid fa-envelope"></i> info@example.com</a><br>
+                <a href="tel:123 456-7890"><i class="fa-solid fa-phone-volume"></i> 123 456-7890</a><br>
+                <a href="https://www.google.com/maps?q=37.7749,-122.4194"><i class="fa-solid fa-location-dot"></i> F-893 Tariq road karachi</a>
+
+            </div>
+            <div class="time">
+                <h2>
+                    Office-Hours
+                </h2>
+                <li> Mon-Thus : 9:00am - 12:00am</li>
+                <li>Fri : 8:00am - 10:00 am</li>
+                <li>S at : 8:00am -12:00am</li>
+                <li>Sun : off</li>
+            </div>
+        </div>
+
+        <div class="end">
+            <p>Copyright vicpra 2022. All rights Reserved</p>
+            <p>Distributed By ThemeWagon</p>
+        </div>
+
+
+        <div class="social-links">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#orderForm").validate({
+                rules: {
+                    name: "required",
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    address: "required",
+                    contact: {
+                        required: true,
+                        digits: true
+                    }
+                },
+                messages: {
+                    name: "Please enter your Name",
+                    email: {
+                        required: "Please enter your E-mail",
+                        email: "Please enter a valid E-mail address"
+                    },
+                    address: "Please enter your Address",
+                    contact: {
+                        required: "Please enter your Contact",
+                        digits: "Please enter only digits"
+                    }
+                },
+                errorClass: "error",
+                errorElement: "div",
+                errorPlacement: function (error, element) {
+                    error.insertAfter(element);
+                },
+                submitHandler: function (form) {
+                    
+                    $(".arrow").show(); 
+                    console.log("Form submitted successfully!");
+                    return false;
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="parent1">
+        <div class="wrapper">
+            <form id="orderForm" action="">
+                <h2>Place Order!</h2>
+                <div class="input-box">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <box-icon name='user'></box-icon>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="email" placeholder="E-mail" required>
+                    <box-icon type='solid' name='envelope'></box-icon>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="address" placeholder="Address" required>
+                    <box-icon type='solid' name='location-plus'></box-icon>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="contact" placeholder="Contact" required>
+                    <box-icon type='solid' name='phone'></box-icon>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+        <div class="arrow">
+            <a href="../index.html"><img src="images/left-arrow-alt-regular-24.png" class="arrow1"></a>
+            <a href="../order.html"><img src="images/right-arrow-alt-regular-24.png" class="arrow2"></a>
+        </div>
+    </div>
+</body>
+
+</html>
